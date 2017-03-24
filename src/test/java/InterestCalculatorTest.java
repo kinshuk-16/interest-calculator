@@ -37,7 +37,7 @@ public class InterestCalculatorTest {
         Double percentageInterest = 20.0;
         Double timeInYears = 2.0;
 
-        assertThat(interestCalculator.calculateCompoundInterest(principal, percentageInterest, timeInYears), is(44.0));
+        assertThat(interestCalculator.calculateCompoundInterest(principal, percentageInterest, timeInYears), is(45.0)); //changing for test, originally 44
     }
 
     @Test(expected = RequiredInputNotPresentException.class)
